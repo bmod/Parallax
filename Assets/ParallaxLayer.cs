@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ParallaxLayer : MonoBehaviour {
-   public float fraction = 0.0f;
+   public float fraction;
    
    void UpdatePosition() {
       var camPos = Camera.main.transform.position;
